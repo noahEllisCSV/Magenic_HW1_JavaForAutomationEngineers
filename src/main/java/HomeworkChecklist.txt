@@ -2,14 +2,14 @@ TODO HOMEWORK CHECKLIST:
 PROGRAMMING TASKS
     Calculator.java
         [X] Pull down Homework 1's starting branch
-        [ ] Finish the subtract method
-        [ ] Fix the bug in the multiply method
-        [ ] Run the main method to see what happens
-        [ ] Run the TestNG tests and make sure they all pass
+        [X] Finish the subtract method
+        [X] Fix the bug in the multiply method
+        [x] Run the main method to see what happens
+        [x] Run the TestNG tests and make sure they all pass
     CalculatorTest
-        [ ] Uncomment the marked lines of code
-        [ ] Run all Tests
+        [x] Uncomment the marked lines of code
+        [x] Run all Tests
 
 SHORT ANSWERS
     [ ] Comment below what the difference between TestNG and the main method is
-        // ANSWER HERE:
+        // ANSWER HERE: The main method is the entry point for the program. TestNG is the testing framework.

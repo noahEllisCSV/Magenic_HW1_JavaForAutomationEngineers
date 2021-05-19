@@ -27,10 +27,7 @@ public class Calculator {
      * @param numTwo The number being used for subtraction
      * @return The result of numTwo subtracted from numOne
      */
-    public static double subtract(double numOne, double numTwo) {
-        // Write the correct method here
-        return 0; // Delete this line when done with all of the above
-    }
+    public static double subtract(double numOne, double numTwo) { return numOne - numTwo; }
 
     /**
      * TODO FOR HOMEWORK: The below program has a BUG! Find the bug and fix it. HINT: Read the comments
@@ -40,7 +37,7 @@ public class Calculator {
      * @param numTwo The second number being multiplied
      * @return The product of two numbers
      */
-    public static int multiply(int numOne, int numTwo) {
+    public static double multiply(double numOne, double numTwo) {
         return numOne * numTwo;
     }
 
@@ -56,10 +53,10 @@ public class Calculator {
         System.out.println(firstNum + " * " + secondNum + " = " + multiply(firstNum, secondNum));
 
         // TODO: The following won't work as intended until all homework is done, uncomment when finished
-        // double firstDouble = 6;
-        // double secondDouble = 3;
-        // System.out.println(firstDouble + " + " + secondDouble + " = " + add(firstDouble, secondDouble));
-        // System.out.println(firstDouble + " - " + secondDouble + " = " + subtract(firstDouble, secondDouble));
-        // System.out.println(firstDouble + " * " + secondDouble + " = " + multiply(firstDouble, secondDouble));
+         double firstDouble = 6;
+         double secondDouble = 3;
+         System.out.println(firstDouble + " + " + secondDouble + " = " + add(firstDouble, secondDouble));
+         System.out.println(firstDouble + " - " + secondDouble + " = " + subtract(firstDouble, secondDouble));
+         System.out.println(firstDouble + " * " + secondDouble + " = " + multiply(firstDouble, secondDouble));
     }
 }
