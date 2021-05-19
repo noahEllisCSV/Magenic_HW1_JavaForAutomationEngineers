@@ -11,5 +11,5 @@ PROGRAMMING TASKS
         [x] Run all Tests
 
 SHORT ANSWERS
-    [ ] Comment below what the difference between TestNG and the main method is
+    [x] Comment below what the difference between TestNG and the main method is
         // ANSWER HERE: The main method is the entry point for the program. TestNG is the testing framework.

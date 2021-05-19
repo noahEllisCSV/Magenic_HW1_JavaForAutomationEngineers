@@ -65,14 +65,14 @@ public class CalculatorTest {
     }
 
 //    // TODO: Uncomment this test when all changes to Calculator.java are done
-//     @Test
-//    /**
-//     * Tests the sum of two integers
-//     */
-//    public void testDoubleMultiply() {
-//        double a = 7;
-//        double b = -7;
-//        double product = Calculator.multiply(a, b);
-//        Assert.assertEquals(product, -49);
-//    }
+     @Test
+    /**
+     * Tests the sum of two integers
+     */
+    public void testDoubleMultiply() {
+        double a = 7;
+        double b = -7;
+        double product = Calculator.multiply(a, b);
+        Assert.assertEquals(product, -49);
+    }
 }
